@@ -8,9 +8,10 @@
 
 body {
     background-image: url("assets/travel.jpg");
-    background-size: 1080px 1980px;
+    overflow: hidden;
     
-    background-color: #fff;
+    /* background-color: #fff; */
+    
     font-family: 'Cantarell', serif;
 }
 
