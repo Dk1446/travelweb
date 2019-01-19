@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
 @import url('https://fonts.googleapis.com/css?family=Cantarell');
-
+/* 
 * {
     margin: 0;
     padding: 0;
-}
+} */
 
 html {
     background: url(assets/travel.jpg) no-repeat center center fixed;
@@ -106,27 +106,47 @@ h1 {
     font-size: 25px;
     text-align: center;
     color: white;
-    text-decoration-line: underline;
+    text-decoration-line: none;
     padding-top: 10px;
 }
 
 p {
-    padding: 100px 20px 20px 20px;
+    /* padding: 100px 20px 20px 20px; */
     font-family: 'Raleway', serif;
     font-size: 15px;
-    color: white;
+    color:white;
+    border-right: 5px;
+    border-left: 5px;
+    border-color: white;
+    text-align: justify;
+
+/* padding takes up the freed space */
+
+    /* padding-left: 80em;
+    padding-top: 5em;
+    padding-right: 10em; */
 
     /* padding-top: 20px; */
 
 }
-
+/* 
 section {
 
     /*padding: 20px;*/
-    text-align: justify;
+    /* text-align: justify;
+
+} */ 
+
+
+
+.textbox{
+
+   padding-left: 60em;
+   padding-top: 8em;
+   padding-right: 12em;
+
 
 }
-
 
 /* First box */
 /* 
@@ -141,7 +161,7 @@ overflow: auto;
     font-size: 20px;
     font-family: 'Cantarell', serif;  */
 
-} */
+
 
 /* 
 .imgone {
@@ -155,7 +175,7 @@ overflow: auto;
 
 
 
-} */
+
 
 
 
