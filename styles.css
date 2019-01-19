@@ -3,7 +3,8 @@
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0; 
+    scroll-behavior: smooth;
 } 
 
 html {
@@ -19,7 +20,7 @@ html {
 body {
 
     /* Needed to position the navbar */
-    /* position: relative; */
+     position: relative; 
 
     font-family: 'Raleway', serif;
 }
@@ -109,6 +110,8 @@ h1 {
     color: white;
     text-decoration-line: none;
     padding-top: 10px;
+    border-left: 5px solid #FFEB3B;
+    border-right: 5px solid #FFEB3B;
 }
 
 p {
@@ -119,6 +122,7 @@ p {
     
    
     text-align: justify;
+}
     
 
 /* padding takes up the freed space */
@@ -129,7 +133,7 @@ p {
 
     /* padding-top: 20px; */
 
-}
+
 /* 
 section {
 
@@ -140,14 +144,14 @@ section {
 
 
 
-/* .textbox{
+.box{
 
     border: 5px solid black;
 
    /* margin-left: 60em;
    margin-top: 8em;
    margin-right: 12em;  */
-
+}
 
 
 .textpos{
@@ -155,13 +159,15 @@ section {
     width: 40%;
     text-align: right;
     float:right;
-
+    padding-bottom: 100%;
     background-color: black;
 }
 
 img{
     width:60%;
     float: left;
+    height: auto;
+    
     
 }
 
