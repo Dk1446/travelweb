@@ -1,1 +1,1 @@
-# website-1
+# Dummy travel website/blog practice
