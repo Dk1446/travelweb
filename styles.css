@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
 @import url('https://fonts.googleapis.com/css?family=Cantarell');
 
@@ -160,15 +161,20 @@ section {
     width: 40%;
     text-align: right;
     float:right;
-    padding-bottom: 100%;
+    padding-bottom: 50%;
     background-color: black;
 }
 
 img{
     width:60%;
+
+    
     float: left;
     
-    overflow: auto;
+    
+
+    
+    overflow: scroll;
     
     
 }
