@@ -12,7 +12,7 @@ html {
     background-color: white;
     background-size: cover;
     height: 100%;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 
@@ -20,7 +20,8 @@ html {
 body {
 
     /* Needed to position the navbar */
-     position: relative; 
+    /* position: relative;
+    overflow: scroll; */
 
     font-family: 'Raleway', serif;
 }
@@ -144,14 +145,14 @@ section {
 
 
 
-.box{
+/* .box{
 
     border: 5px solid black;
 
    /* margin-left: 60em;
    margin-top: 8em;
    margin-right: 12em;  */
-}
+
 
 
 .textpos{
@@ -166,7 +167,8 @@ section {
 img{
     width:60%;
     float: left;
-    height: auto;
+    
+    overflow: auto;
     
     
 }
