@@ -47,7 +47,7 @@ body {
     /*the color is for the li elements bars*/
     float: left;
     /* opacity: .5; */
-    background-color: #D4E157;
+    background-color: #004d40;
     font-family: 'Cantarell', sans-serif;
     font-weight: 700;
     
@@ -64,7 +64,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #C0CA33; 
+    background-color: #004d40; 
     box-shadow:0 2px 3px grey;
    
 
@@ -76,17 +76,17 @@ body {
 
 .navigation a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    opacity: .5;
+    opacity: .8;
 }
 
 .navigation a:hover {
 
-    background-color: #7986CB;
-    color: #000000;
+    background-color: #39796b;
+    color: white;
     font-weight: 900;
     opacity: 1;
     font-family: 'Cantarell', sans-serif;
