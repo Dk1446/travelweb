@@ -101,6 +101,7 @@ p {
     font-size: 15px;
     color:white;
     text-align: justify;
+
 }
     
 
@@ -135,28 +136,29 @@ section {
 
 
 .textpos{
-
-    width: 40%;
+    max-width: 50%;
     text-align: right;
     float:right;
-    padding-bottom: 49.5%;
+    /* padding-bottom: 49.5%;
+    padding-right: 40px; */
     background-color: black;
+    padding-right: 10.3%;
+    margin: 0 auto;
+    height: inherit;
+    padding-bottom: 20.6%;
+    
+    
+    
     
 }
 
 .img{
-    width:60%;
+    max-width:50%;
 
-    
+    margin: 0 auto;
     float: left;
     
-    object-fit: cover;
-
-    
-
-
-    
-   
+    /* object-fit: cover; */
     
     
 }
