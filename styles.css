@@ -3,17 +3,17 @@
 @import url('https://fonts.googleapis.com/css?family=Cantarell');
 
 * {
-     margin: 0;
+    margin: 0;
     padding: 0; 
-    scroll-behavior: smooth;
+    
 } 
 
 html {
     /* background: url(assets/travel.jpg) no-repeat center center fixed; */
     background-color: white;
     background-size: cover;
-    height: 100%;
-    overflow: scroll;
+    /* height: 100%;
+    overflow: scroll; */
 }
 
 
@@ -54,7 +54,8 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #37474F;
-    /* box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); */
+    /* box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); 
+    z-index: 1; */
 }
 
 .navigation a {
@@ -124,11 +125,12 @@ section {
  #box{
 
     margin: 0 auto;
-} */
+} 
 
-   /* margin-left: 60em;
+    margin-left: 60em;
    margin-top: 8em;
    margin-right: 12em;  */
+
 
 
 
@@ -142,17 +144,19 @@ section {
     
 }
 
-img{
+.img{
     width:60%;
-height: 80%;
+
     
     float: left;
     
     object-fit: cover;
 
+    
+
 
     
-    overflow: scroll;
+   
     
     
 }
