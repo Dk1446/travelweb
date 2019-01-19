@@ -12,6 +12,7 @@ html {
     /* background: url(assets/travel.jpg) no-repeat center center fixed; */
     background-color: white;
     background-size: cover;
+   
     /* height: 100%;
     overflow: scroll; */
 }
@@ -90,9 +91,14 @@ h1 {
     text-align: center;
     color: white;
     text-decoration-line: none;
-    padding-top: 10px;
-    border-left: 5px solid #7CB342;
+    /* padding-top: 10px; */
+    padding: 3em 5em 0em 5em;
+    /* padding-left: 5em; */
+     /* border-left: 5px solid #7CB342;
     border-right: 5px solid #7CB342;
+    border-top: 5px solid #7CB342;
+    border-bottom: 5px solid #7CB342;  */
+    
 }
 
 p {
@@ -101,6 +107,12 @@ p {
     font-size: 15px;
     color:white;
     text-align: justify;
+    text-align: left;
+    margin: 0em 2.9em 4.14em 5em;
+    border-left: 5px solid #7CB342;
+    border-right: 5px solid #7CB342;
+    border-top: 5px solid #7CB342;
+    border-bottom: 5px solid #7CB342; 
 
 }
     
@@ -137,15 +149,19 @@ section {
 
 .textpos{
     max-width: 50%;
-    text-align: right;
+    text-align: center;
     float:right;
     /* padding-bottom: 49.5%;
     padding-right: 40px; */
     background-color: black;
-    padding-right: 10.3%;
-    margin: 0 auto;
-    height: inherit;
+    /* padding-right: 10.3%; */
+    /* margin: 0 auto;
+    height: auto;
     padding-bottom: 20.6%;
+    border-left: 5px solid #7CB342;
+    border-right: 5px solid #7CB342;
+    border-top: 5px solid #7CB342;
+    border-bottom: 5px solid #7CB342; */
     
     
     
