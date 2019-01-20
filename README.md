@@ -1,1 +1,2 @@
-# Dummy travel website/blog practice
+# website prac for travel journalism
+# include cotent from National geographic
